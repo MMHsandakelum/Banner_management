@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('pages.login');
 });
 Route::get('/dashbord', function () {
-    return view('dashbord');
+    return view('index');
 });
 Route::get('/register', function () {
     return view('pages.register');
